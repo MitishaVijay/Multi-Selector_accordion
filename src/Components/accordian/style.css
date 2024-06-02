@@ -1,0 +1,39 @@
+.wrapper{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+    flex-direction: column;
+    gap: 20px;
+}
+.wrapper button{
+    color:white;
+    background-color: chocolate;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+.accordian{
+    width: 500px;
+    background-color:coral;
+    display: block;
+
+}
+.item{
+    background-color: blanchedalmond;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+.title{
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.content{
+    color: black;
+    height: auto;
+    text-align: left;
+}
